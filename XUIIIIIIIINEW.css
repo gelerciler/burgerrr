@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.header{
+    width: 768px;
+    display: flex;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.logos{
+    width: 96px;
+    height: 51px;
+    background-image: url("img/group.svg");
+}
+.header__logos{
+   margin: 19px 261px 18px 21px;
+}
+.header__logos::after{
+    content: " ";
+    background-color: black;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    left: 84px;
+    top: 28px;
+    }
+.header__button--burgers{
+    background-image: url("img/icon1.svg");
+    margin: 24px 17px 24px 24px;
+}
+.header__button--calls{
+    background-image: url("img1/trubka.svg");
+    margin: 24px 17px 24px 16px;
+}
+.header__button--comments{
+    background-image: url("img1/coment.svg");
+    margin: 24px 17px 24px 16px;
+}
+.header__button--poeples{
+    background-image: url("img1/chel.svg");
+    margin: 24px 17px 24px 16px;
+}
+
+/* @media(min-width:320px) {
+    .header{
+        width: 320px;
+        margin: auto;
+    }
+    .header__button--calls {
+        display: none;
+    }
+    .header__button--comments {
+        display: none;
+    }
+    .header__button--poeples {
+        display: none; 
+    }
+    .header__button--settings{
+        margin-left: 38px;
+    }
+    .header__button--searchs{
+        margin-right: 24px;
+    }
+}
+@media(min-width:768px) {
+    .header{
+        width: 768px;
+    }
+    .header__button--calls {
+        display: block;
+    }
+    .header__button--comments {
+        display: block;
+    }
+    .header__button--poeples {
+        display: block; 
+    }
+} */
+.header__button--poeples::after{
+    content: " ";
+    background-color: black;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    left: 680px;
+    top: 28px;
+    }
+.header__button--settings{
+    background-image: url("img/Group1.svg");
+    margin: 24px 16px 24px 42px;
+}
+.header__button--searchs{
+    background-image: url("img/icon2.svg");
+    margin: 24px -70px 24px 0; 
+}
+.bt{
+    width:  820px;
+    background-color: #F8F8F8;
+}
+.bt__h--referense{
+    font-size: 28px;
+    margin: 24px 512px 32px 24px;
+    padding-top: 24px;
+    margin-left: 16px;
+}
+.bt__h--referense::after{
+    content: " ";
+    background-color: #41F6D7;
+    width: 4px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    border-radius: 8px;
+    }
+
+
+.bt__xui {
+    margin: 24px 0;
+    overflow: scroll;
+}
+
+.bt__menu {
+    display: flex;
+    width: 1200px;
+}
+
+.bt__xyuina {
+    padding: 8px 9px;
+    margin-left: 16px;
+}
+.bt__xyuina:hover{
+    border: 4px solid #b8ffec;
+    border-radius: 6px;
+    transform: scale(1.2);
+}
+.kuni{
+    width: 720px;
+    height: 208px;
+    display: flex;
+
+}
+.kuni__master {
+    width: 288px;
+    height: 90px;
+    margin: 0 auto;
+}
+.liptonxuina{
+    width: 280px;
+}
+.kuni_xuina {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+}
+.kuni__text{
+    
+}
+
+.kuni__image {
+    margin-top: 16px;
+}
+

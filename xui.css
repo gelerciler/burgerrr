@@ -1,0 +1,80 @@
+.mobileosn{
+    width: 320px;
+    height: 509px;
+}
+.header{
+    width: 320px;
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+}
+.xui{
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 50%;
+}
+.tri {
+    background-image: url(img/icon1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.palochka {
+    width: 97px;
+    height: 51px;
+    background-image: url(img/Group.svg);
+    
+}
+.xuita {
+    background-image: url(img/Group1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.zalupa {
+    background-image: url(img/icon2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vtoroiheader{
+width: 320px;
+height: 509px;
+}
+.yslugiiservisi{
+    color: black;
+    font-size: 28px;
+    line-height: 40px;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+.ino{
+    height: 35px;
+    background: none;
+    border: 2px solid rgb(21, 214, 248);
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+    color: black;
+    vertical-align: center;
+}
+.we{
+    height: 90px;
+    left: 5%;
+    right: 5%;
+}
+.microfon{
+    width: 288px;
+    margin: 0 auto;
+}
+.remont{
+    width: 288px;
+    margin: 0 auto;
+}
+.moreread{
+    text-decoration: none;
+    color: black;
+}
+.ret{
+    
+}
